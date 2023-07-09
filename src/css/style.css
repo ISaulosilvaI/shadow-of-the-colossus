@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+    font-family: 'Oxanium', cursive;
+    background: url(../images/Mapa.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    width: 300px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.selecao-de-personagem{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 120px);
+    justify-content: center;
+}
+
+.selecao-de-personagem 
+.lista-de-personagens{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.selecao-de-personagem .personagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    gap: 25px;
+}
+
+.personagem{
+    border-bottom: 3px solid #94e6b9;
+}
+
+.personagem:hover{
+   opacity: 0.7;
+}
+
+.selecao-de-personagem .personagens .titulo{
+    border-bottom: 3px solid #3ea16b;
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.lista-de-personagens .personagem img{
+    border-radius: 5px;
+    width: 185px;
+    height: 185px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.lista-de-personagens .personagem.selecionado{
+    box-shadow: 0 0 50px 15px #d4c2bd;
+    
+}
+
+.personagem-selecionado{
+   text-align: center;
+   max-height: 700px;
+}
+
+.personagem-selecionado .personagem-grande{
+    width: 470px;
+    height: 470px;
+    border-radius: 10px;
+}
+
+.personagem-selecionado .nome-personagem{
+    border-bottom: 3px solid #60db97;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.personagem-selecionado .descricao-personagem{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 20px;
+    width: 700px;
+}
+
+.personagem-selecionado .informacoes-personagem{
+    margin-top: 15px;
+}

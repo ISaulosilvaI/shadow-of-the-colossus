@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shadow of the colossus</title>
+
+    <link rel="shortcut icon" href="./src/images/icon.jpeg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responcivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/images/Logo.png" alt="Logo" />
+    </header>
+
+    <main class="selecao-de-personagem">
+      <section class="personagens">
+        <h1 class="titulo">selecione um dos colossus</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="valus" data-name="valus" data-description="O 1º Colossus , semelhante a um minotauro, é um dos dezesseis chefes combatidos em Shadow of the Colossus . Localizado a uma curta distância diretamente ao sul do Santuário de Adoração , este colosso humanóide faz sua casa em uma área plana acessível apenas escalando as vinhas e ruínas que pontilham um penhasco alto."><img src="./src/images/Valus.webp" alt="valus" /></li>
+          <li class="personagem" id="quadratus" data-name="quadratus" data-description="O 2º Colossus , semelhante a um touro e um mamute, é um dos dezesseis chefes enfrentados em Shadow of the Colossus . Seu covil fica ao norte do Santuário de Adoração , sob a grande ponte no fundo de um desfiladeiro gigante."><img src="./src/images/Quadratus.jpg" alt="quadratus" /></li>
+          <li class="personagem" id="gaius" data-name="gaius" data-description="O 3º Colossus , semelhante a um cavaleiro, é um dos dezesseis chefes combatidos em Shadow of the Colossus . Seu covil é uma arena inclinada no meio de um lago gigante no quadrante E2."><img src="./src/images/Gaius.jpg" alt="Gaius" /></li>
+          <li class="personagem" id="phaedra" data-name="phaedra" data-description="O 4º Colossus , semelhante a um kirin mitológico decadente, é um dos dezesseis chefes enfrentados em Shadow of the Colossus . Ele faz sua casa em uma alcova vibrante pontilhada com algumas ruínas no quadrante G5 do mapa."><img src="./src/images/Phaedra.jpg" alt="Phaedra" /></li>
+          <li class="personagem" id="avion" data-name="avion" data-description="O 5º Colossus , semelhante a uma ave de rapina, é um dos dezesseis chefes enfrentados em Shadow of the Colossus . Este colosso ágil é encontrado em um lago enevoado no quadrante H4 , empoleirado no topo de uma das várias ruínas altas que se projetam das águas."><img src="./src/images/Avion.jpg" alt="Avion" /></li>
+          <li class="personagem" id="barba" data-name="barba" data-description="O 6º Colossus , semelhante a um minotauro barbudo, é um dos dezesseis chefes enfrentados em Shadow of the Colossus . Este gigante é encontrado em um templo remoto no quadrante D6 das Terras Proibidas ."><img src="./src/images/Barba.jpg" alt="Barba" /></li>
+          <li class="personagem" id="hydrus" data-name="hydrus" data-description="O 7º Colossus , semelhante a uma enguia elétrica e um peixe-gato, é um dos dezesseis chefes combatidos em Shadow of the Colossus . Este colosso nada em um lago gigante e escuro no quadrante D1 ."><img src="./src/images/Hydrus.webp" alt="Hydrus" /></li>
+          <li class="personagem" id="kuromori" data-name="kuromori" data-description="O 8º Colossus , semelhante a uma gigantesca lagartixa, é um dos dezesseis chefes combatidos em Shadow of the Colossus . Este colosso escalador de paredes pode ser encontrado em uma arena alta e estreita localizada no quadrante G6 ."><img src="./src/images/Kuromori.webp" alt="Kuromori" /></li>
+          <li class="personagem" id="basaran" data-name="basaran" data-description="O 9º Colossus , semelhante a uma tartaruga, é um dos dezesseis chefes combatidos em Shadow of the Colossus . Este colosso pode ser encontrado no quadrante D3 em uma grande caverna próxima a um campo de gêiseres ."><img src="./src/images/Basaran.jpg" alt="Basaran" /></li>
+          <li class="personagem" id="dirge" data-name="dirge" data-description="O 10º Colossus , semelhante a uma serpente, é um dos dezesseis chefes combatidos em Shadow of the Colossus . Este colosso se move pela areia solta em uma gigantesca caverna no quadrante B4 das Terras Proibidas .
+          "><img src="./src/images/Dirge.webp" alt="Dirge" /></li>
+          <li class="personagem" id="celosia" data-name="celosia" data-description="O 11º Colossus , semelhante a uma estátua komainu , é um dos dezesseis chefes enfrentados em Shadow of the Colossus . É encontrado em um desfiladeiro pequeno, mas profundo , abaixo da extremidade norte da gigantesca ponte no quadrante F1 ."><img src="./src/images/Celosia.webp" alt="Celosia" /></li>
+          <li class="personagem" id="pelagia" data-name="pelagia" data-description="O 12º Colossus é um dos dezesseis chefes enfrentados em Shadow of the Colossus . Encontra-se dentro de um grande lago no quadrante G2 ."><img src="./src/images/Pelagia.jpg" alt="Pelagia" /></li>
+          <li class="personagem" id="phalanx" data-name="phalanx" data-description="O 13º Colossus é um dos dezesseis chefes enfrentados em Shadow of the Colossus . Localizado no meio de um grande deserto no quadrante E6 . Apesar de sua aparência maciça, é completamente dócil e de forma alguma agredirá Wander deliberadamente ."><img src="./src/images/Phalanx.jpg" alt="Phalanx" /></li>
+          <li class="personagem" id="cenobia" data-name="cenobia" data-description="O 14º Colossus , semelhante a um cão de guarda, é um dos dezesseis chefes combatidos em Shadow of the Colossus . Encontrado nas ruínas de uma grande cidade no quadrante C2 das Terras Proibidas . É semelhante em tamanho ao igualmente relativamente pequeno 11º colosso ."><img src="./src/images/Cenobia.webp" alt="Cenobia" /></li>
+          <li class="personagem" id="argus" data-name="argus" data-description="O 15º Colossus , semelhante a um minotauro com cicatrizes de batalha, é um dos dezesseis chefes enfrentados em Shadow of the Colossus . Este gigante empunhando um cutelo é encontrado além de uma fortaleza no quadrante G1 das Terras Proibidas ."><img src="./src/images/Argus.jpg" alt="Argus" /></li>
+          <li class="personagem" id="malus" data-name="malus" data-description="O 16º Colossus é o último chefe enfrentado em Shadow of the Colossus . Encontrado no topo de uma grande mesa no extremo sul das Terras Proibidas ( quadrante F8 ). Ao contrário dos outros 15 colossos, o 16º fica além de uma área inacessível até que os 15 colossos anteriores sejam derrotados."><img src="./src/images/Malus.jpg" alt="Malus" /></li>
+        </ul>
+      </section>
+
+      <section class="personagem-selecionado">
+        <img class="personagem-grande" src="./src/images/valus-template.webp" alt="" />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Valus</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            O 1º Colossus , semelhante a um minotauro, é um dos dezesseis chefes
+            combatidos em Shadow of the Colossus . Localizado a uma curta
+            distância diretamente ao sul do Santuário de Adoração , este colosso
+            humanóide faz sua casa em uma área plana acessível apenas escalando
+            as vinhas e ruínas que pontilham um penhasco alto.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
